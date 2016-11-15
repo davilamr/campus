@@ -10,14 +10,21 @@ import {firebaseConfig} from "../../../environments/firebase.config";
 export class LessonsService {
 
     sdkDb:any;
+    sdkStorage:any;
 
     constructor(private db:AngularFireDatabase, @Inject(FirebaseRef) fb,
                 private http:Http) {
 
         this.sdkDb = fb.database().ref();
+        this.sdkStorage = fb.storage().ref();
+
 
     }
 
+    findImage(path:String){
+        const storageRef = this.sdkStorage.child('utnfra.jpg');
+        return storageRef.getDownloadURL();
+    }
 
     findAllLessons():Observable<Lesson[]> {
 

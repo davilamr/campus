@@ -41,6 +41,8 @@ export class RegisterComponent  {
                 },
                 err => alert(err)
             );
+
+
     }
 
 

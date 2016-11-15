@@ -11,6 +11,7 @@ export class HomeComponent implements OnInit {
 
   allLessons: Lesson[];
     filtered: Lesson[];
+    image: string;
 
   constructor(private lessonsService: LessonsService) {
 
@@ -22,6 +23,8 @@ export class HomeComponent implements OnInit {
           .subscribe(
               lessons => this.allLessons = this.filtered = lessons
           );
+        
+      this.lessonsService.findImage("").then(url => this.image = url);
 
 
   }
