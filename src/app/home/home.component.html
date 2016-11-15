@@ -1,0 +1,11 @@
+<h2>All Lessons</h2>
+
+<h4>Total Lessons: {{lessons?.length}}</h4>
+
+<input class="search-bar" placeholder="Search"(keyup)="search(input.value)" #input>
+
+<div class="lessons-list-container v-h-center-block-parent">
+
+    <lessons-list *ngIf="filtered" [lessons]="filtered"></lessons-list>
+
+</div>
