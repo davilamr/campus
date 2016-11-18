@@ -30,6 +30,7 @@ import { RegisterComponent } from './register/register.component';
 import {AuthService} from "./shared/security/auth.service";
 import {AuthGuard} from "./shared/security/auth.guard";
 import {HttpModule} from "@angular/http";
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import {HttpModule} from "@angular/http";
     LessonFormComponent,
     EditLessonComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
