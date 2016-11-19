@@ -1,0 +1,139 @@
+/* Colores */
+
+.bg-red {
+	background-color: #FC0000;
+}
+
+.bg-blue {
+	background-color: #31708F;
+}
+
+
+/* Estilo Tablas Pendientes */
+.table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
+    background-color: rgba(249, 249, 249, 0.25);
+}
+.table-condensed > tbody > tr > td{
+    padding: 6px;
+}
+
+.clickable-row {
+    cursor: pointer;
+}
+
+/* Aprobar */
+.datosAprobar h4,
+.datosAprobar p,
+.datosAprobar button{
+    margin-left: 10px;
+}
+
+.pn {
+    height: 100%;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.pantalla-pack .badge {
+    position: absolute;
+    right: 7px;
+    top: -10px;
+    z-index: 100;
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+    padding-left: 6px;
+}
+
+.pantalla-3.content-panel{
+	padding-top: 0px;
+	min-height: 23em;
+}
+
+.pantalla-3 .info{
+	background-color:#FFFFFF!important; 
+}
+.content-panel * {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content-panel form label{
+    padding-left: 0px;
+}
+
+/* Nuevo Espacio Publicitario */
+.razon-social .form-control {
+    margin-left: -10px;
+    margin-right: 1em;
+    display: block;
+    width: auto!important;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+/* =============== PUBLICIDAD =============*/
+
+.datos h4,
+.datos h3,
+.datos p,
+.datos button,
+ul#gallery{
+    margin-left: 10px;
+}
+.uploadDataForm{
+    padding: 0 2em 0 2em;
+    margin-bottom: 1em;
+    margin-top: 1em
+}
+
+.file-preview{
+    margin-bottom: 2em!important;
+}
+.downloadZip{
+    margin-top: 2em;
+    font-size: 1em!important;
+}
+
+/* Videos */
+#gallery { min-height: 12em; }
+  .gallery.custom-state-active { background: #eee; }
+  .gallery li { float: left; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+  .gallery li h5 { margin: 0 0 0.4em; cursor: move; }
+  .gallery li a { font-size: 2em; }
+  .gallery li a.ui-icon-zoomin { float: left; }
+  .gallery li img { width: 100%; cursor: move; }
+ 
+  #videolist { min-height: 10em; padding: 1%; }
+  #videolist h4 { line-height: 16px; margin: 0 0 0.4em; }
+  #videolist h4 .ui-icon { float: left; }
+  #videolist .gallery h5 { display: none; }
+
+.ui-widget-content {
+    color: #797979!important;
+}
+
+.video-panel a {
+    right: 25px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.ui-widget-header {
+    /* border: 1px solid #aaaaaa; */
+    /* background: #cccccc url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x; */
+    /* color: #222222; */
+    /* font-weight: bold; */
+}
+li.pn.ui-widget-content.ui-corner-tr.col-lg-3.ui-draggable {
+    max-height: 18em;
+    min-height: 18em;
+}
